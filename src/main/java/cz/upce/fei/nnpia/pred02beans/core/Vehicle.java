@@ -17,6 +17,14 @@ public class Vehicle {
     public static void main(String[] args) {
         Vehicle vehicle = new Vehicle();
         vehicle.makeVehicle();
+
+        String a = "a";
+        String b = "a";
+        String c = new String("a");
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
     }
 
 }

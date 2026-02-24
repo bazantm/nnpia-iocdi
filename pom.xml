@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cz.upce.fei.nnpia</groupId>
-    <artifactId>pred02-beans</artifactId>
+    <artifactId>nnpia-beans</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>pred02-beans</name>
     <description>pred02-beans</description>
@@ -26,9 +26,13 @@
         <tag/>
         <url/>
     </scm>
+
     <properties>
         <java.version>17</java.version>
     </properties>
+
+
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
